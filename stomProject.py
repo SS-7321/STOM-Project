@@ -123,7 +123,7 @@ for k in tqdm(range (0,100)):
     results['Chi min'] = chi_dist
     # results['Probability'] = prob_dist
     # results['Average Probability'] = average_probability
-    results.to_csv("C:\\Users\\samiu\\Desktop\\Chi_pdf_Amplitude{}.csv".format(k*4), index=True)
+    results.to_csv("SAVE_PATH.csv".format(k*4), index=True)
     
 
 #%%
@@ -152,7 +152,7 @@ for k in tqdm(range (51,89)):
     # average_probability.append(avg_p)
     results['Chi min'] = chi_dist
     # results['Probability'] = prob_dist
-    results.to_csv("C:\\Users\\samiu\\Desktop\\Results\\Chi_pdf_Amplitude{}.csv".format(k*4), index=True)
+    results.to_csv("SAVE_PATH.csv".format(k*4), index=True)
     
 #%%
 
