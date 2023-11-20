@@ -28,7 +28,7 @@ def quadratic(x,a,b,c,):
     return a*x**2+b*x+c
 #Iterate over all filepaths and assigns the directories to a list
 filepaths=[]
-for root, dirs, files in os.walk("C:\\Users\\Freddie\\OneDrive\\Desktop\\Results",topdown=True):    
+for root, dirs, files in os.walk("PATH_TO_FILE",topdown=True):    
     for file in files:                              
         filepaths.append(os.path.join(root,file)) 
 print(filepaths)
